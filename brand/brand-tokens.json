@@ -1,0 +1,28 @@
+{
+  "brand": {
+    "name": "SHAYA",
+    "system": "Midnight Archive",
+    "tagline": "TRACE WHAT OTHERS MISS.",
+    "promise": "Make complex work easier to inspect, understand, and trust."
+  },
+  "color": {
+    "void": "#071013",
+    "midnight": "#0E2231",
+    "archive": "#132B24",
+    "oxblood": "#7C2E20",
+    "trace": "#D58A25",
+    "bone": "#E2D2B8",
+    "smoke": "#6D7472"
+  },
+  "type": {
+    "display": "Bahnschrift",
+    "body": "Segoe UI",
+    "technical": "Cascadia Mono"
+  },
+  "minimumSize": {
+    "digitalMarkPx": 24,
+    "githubAvatarPx": 32,
+    "printMarkMm": 8
+  },
+  "clearSpace": "One amber square on every side"
+}
