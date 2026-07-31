@@ -119,6 +119,7 @@ This profile and its complete identity kit use the **Signal Color** system.
 - [Read the brand guidelines](./brand/SHAYA-SIGNAL-COLOR-GUIDELINES.md)
 - [Download the PDF guide](./brand/SHAYA-Signal-Color-Brand-Guidelines.pdf)
 - [Download the editable PowerPoint](./brand/SHAYA-Signal-Color-Brand-Guidelines.pptx)
+- [Download the vector logo master](./brand/assets/shaya-signal-color-mark-light.svg)
 - [Browse the Signal Color assets](./brand/assets)
 - [Use the design tokens](./brand/brand-tokens.json)
 
@@ -127,7 +128,7 @@ This profile and its complete identity kit use the **Signal Color** system.
   <br />
   <p align="center">
     <img
-      src="./brand/assets/shaya-signal-color-palette.png"
+      src="./brand/assets/shaya-signal-color-palette.svg"
       alt="SHAYA Signal Color palette"
       width="100%"
     />

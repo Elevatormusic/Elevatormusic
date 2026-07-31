@@ -26,7 +26,11 @@ The system must feel:
 
 The primary mark is the folded angular S.
 
-Use the supplied files. Do not rebuild the mark.
+Use the supplied SVG masters. Do not rebuild the mark.
+
+The SVG files are the source of truth. They contain path outlines, not a
+raster image or live font text. Use the PNG files only as fallbacks for a
+system that cannot use SVG.
 
 ### Preferred versions
 
@@ -52,6 +56,17 @@ Keep clear space equal to one quarter of the mark width on every side.
 - add an outline, shadow, glow, or gradient
 - place the mark on a low-contrast image
 - put other text inside the clear-space area
+- enlarge the PNG fallback when an SVG master is available
+
+### Vector and raster policy
+
+Use SVG for the mark, wordmarks, avatar master, palette, clear-space
+guide, type specimen, and repeat pattern. These files must stay sharp at
+every size.
+
+Keep the illustrated hero, detail crop, and animated GIF as raster art.
+They contain print grain, painted texture, or animation frames. Keep them
+at their supplied native size and do not enlarge them beyond that size.
 
 ## Tagline
 
@@ -202,7 +217,8 @@ Use `shaya-signal-color-hero-1280x480.png`.
 
 ### Avatar
 
-Use the warm white folded S on Cobalt.
+Use `shaya-signal-color-avatar.svg` as the master. Use the 512 px PNG
+fallback for services that do not accept SVG.
 
 ### Readability
 
@@ -251,12 +267,11 @@ This package includes:
 - a PDF guide
 - this Markdown guide
 - design tokens
-- light and dark logo marks
-- light and Cobalt wordmarks
-- a profile avatar
+- outlined SVG logo masters with high-resolution PNG fallbacks
+- outlined SVG wordmarks with high-resolution PNG fallbacks
+- an SVG profile avatar master and a 512 px PNG fallback
 - a static GitHub hero
 - an animated GitHub hero
 - a detail image
-- a color palette
-- a clear-space guide
-- a repeat pattern
+- SVG color, clear-space, type, and pattern system graphics
+- high-resolution PNG fallbacks for the system graphics

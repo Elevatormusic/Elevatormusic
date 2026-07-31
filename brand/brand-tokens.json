@@ -24,7 +24,16 @@
   "logo": {
     "clearSpaceRatio": 0.25,
     "minimumDigitalSizePx": 32,
-    "minimumPrintSizeMm": 10
+    "minimumPrintSizeMm": 10,
+    "sourceFormat": "SVG",
+    "fallbackFormat": "PNG",
+    "viewBox": [
+      0,
+      0,
+      145,
+      158
+    ],
+    "wordmarkTextTreatment": "outlined paths"
   },
   "github": {
     "heroWidthPx": 1280,
@@ -46,5 +55,24 @@
       "ease-out"
     ],
     "surfaceRule": "Moving details stay attached to a physical surface."
+  },
+  "assetPolicy": {
+    "vectorMasters": [
+      "mark-light",
+      "mark-dark",
+      "avatar",
+      "wordmark-cobalt",
+      "wordmark-light",
+      "palette",
+      "logo-clear-space",
+      "type-display",
+      "pattern"
+    ],
+    "rasterArtwork": [
+      "hero-1280x480",
+      "detail-1280x480",
+      "hero-animated"
+    ],
+    "rule": "Use SVG for identity geometry. Keep textured art and GIF frames raster."
   }
 }
