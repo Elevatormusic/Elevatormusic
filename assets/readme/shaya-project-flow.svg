@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="1280" height="620" viewBox="0 0 1280 620"
+  role="img" aria-labelledby="title">
+  <title id="title">Four project flows from input to useful result</title>
+  <rect width="1280" height="620" fill="#F6F3EC"/>
+  <path d="M0 0H1280V14H0Z" fill="#FE4B05"/>
+  <text x="46" y="58" fill="#0231B1" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">PROJECT FLOWS / INPUT TO RESULT</text>
+
+  <rect x="42" y="88" width="1196" height="112" rx="10" fill="#151514"/>
+  <rect x="42" y="88" width="224" height="112" rx="10" fill="#FCAB05"/>
+  <text x="72" y="156" fill="#151514" font-family="Arial Narrow, Arial, sans-serif"
+    font-size="38" font-weight="900" letter-spacing="1">HERMES</text>
+  <text x="326" y="136" fill="#F6F3EC" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">AGENT</text>
+  <path d="M504 144H562M544 126L562 144L544 162" fill="none" stroke="#03AEA9" stroke-width="7"/>
+  <text x="600" y="136" fill="#FCAB05" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">THEME + PETS + STATUS</text>
+  <path d="M906 144H964M946 126L964 144L946 162" fill="none" stroke="#03AEA9" stroke-width="7"/>
+  <text x="1000" y="136" fill="#F6F3EC" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">BRANDED DESKTOP</text>
+
+  <rect x="42" y="216" width="1196" height="112" rx="10" fill="#0231B1"/>
+  <rect x="42" y="216" width="224" height="112" rx="10" fill="#03AEA9"/>
+  <text x="72" y="284" fill="#151514" font-family="Arial Narrow, Arial, sans-serif"
+    font-size="38" font-weight="900" letter-spacing="1">MODLY</text>
+  <text x="326" y="264" fill="#F6F3EC" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">SOURCE IMAGE</text>
+  <path d="M504 272H562M544 254L562 272L544 290" fill="none" stroke="#FCAB05" stroke-width="7"/>
+  <text x="600" y="264" fill="#F6F3EC" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">LOCAL GPU PIPELINE</text>
+  <path d="M906 272H964M946 254L964 272L946 290" fill="none" stroke="#FCAB05" stroke-width="7"/>
+  <text x="1000" y="264" fill="#F6F3EC" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">3D SHAPE + TEXTURE</text>
+
+  <rect x="42" y="344" width="1196" height="112" rx="10" fill="#3B1F73"/>
+  <rect x="42" y="344" width="224" height="112" rx="10" fill="#FE4B05"/>
+  <text x="72" y="412" fill="#F6F3EC" font-family="Arial Narrow, Arial, sans-serif"
+    font-size="38" font-weight="900" letter-spacing="1">EARS</text>
+  <text x="326" y="392" fill="#F6F3EC" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="16" font-weight="700" letter-spacing="2">PER-EAR CAPTURE</text>
+  <path d="M504 400H562M544 382L562 400L544 418" fill="none" stroke="#FCAB05" stroke-width="7"/>
+  <text x="600" y="392" fill="#F6F3EC" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">CALIBRATION BRIDGE</text>
+  <path d="M906 400H964M946 382L964 400L946 418" fill="none" stroke="#FCAB05" stroke-width="7"/>
+  <text x="1000" y="392" fill="#F6F3EC" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">DIRAC-READY SIGNAL</text>
+
+  <rect x="42" y="472" width="1196" height="112" rx="10" fill="#FE4B05"/>
+  <rect x="42" y="472" width="224" height="112" rx="10" fill="#F6F3EC"/>
+  <text x="72" y="540" fill="#151514" font-family="Arial Narrow, Arial, sans-serif"
+    font-size="34" font-weight="900" letter-spacing="1">APPLE HIG</text>
+  <text x="326" y="520" fill="#F6F3EC" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">INTERFACE</text>
+  <path d="M504 528H562M544 510L562 528L544 546" fill="none" stroke="#151514" stroke-width="7"/>
+  <text x="600" y="520" fill="#F6F3EC" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">GUIDELINE REVIEW</text>
+  <path d="M906 528H964M946 510L964 528L946 546" fill="none" stroke="#151514" stroke-width="7"/>
+  <text x="1000" y="520" fill="#F6F3EC" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">FINDINGS + FIXES</text>
+</svg>

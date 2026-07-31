@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="1280" height="400" viewBox="0 0 1280 400"
+  role="img" aria-labelledby="title">
+  <title id="title">Apple HIG project cover</title>
+  <defs>
+    <pattern id="rules" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#151514" stroke-width="1" opacity=".16"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="400" fill="#FE4B05"/>
+  <rect x="610" width="670" height="400" fill="#F6F3EC"/>
+  <rect x="610" width="670" height="400" fill="url(#rules)"/>
+  <text x="64" y="62" fill="#FCAB05" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">04 / INTERFACE REVIEW</text>
+  <text x="64" y="160" fill="#F6F3EC" font-family="Arial Narrow, Arial, sans-serif"
+    font-size="76" font-weight="900" letter-spacing="1">APPLE HIG</text>
+  <text x="68" y="218" fill="#F6F3EC" font-family="Arial, sans-serif"
+    font-size="24" font-weight="500">Review interfaces against Apple rules.</text>
+  <rect x="68" y="264" width="142" height="34" rx="17" fill="#151514"/>
+  <text x="84" y="287" fill="#F6F3EC" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="14" font-weight="700" letter-spacing="1">JAVASCRIPT</text>
+  <rect x="224" y="264" width="174" height="34" rx="17" fill="#FCAB05"/>
+  <text x="240" y="287" fill="#151514" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="14" font-weight="700" letter-spacing="1">DESIGN SYSTEMS</text>
+  <text x="68" y="337" fill="#F6F3EC" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">VIEW PROJECT /</text>
+
+  <rect x="678" y="62" width="464" height="278" rx="18" fill="#F6F3EC"
+    stroke="#151514" stroke-width="5"/>
+  <rect x="678" y="62" width="464" height="48" rx="18" fill="#151514"/>
+  <circle cx="710" cy="86" r="7" fill="#FE4B05"/>
+  <circle cx="734" cy="86" r="7" fill="#FCAB05"/>
+  <circle cx="758" cy="86" r="7" fill="#03AEA9"/>
+  <rect x="724" y="148" width="166" height="142" fill="#0231B1"/>
+  <rect x="924" y="148" width="170" height="28" fill="#151514"/>
+  <rect x="924" y="190" width="134" height="16" fill="#03AEA9"/>
+  <rect x="924" y="220" width="155" height="16" fill="#FCAB05"/>
+  <rect x="924" y="256" width="106" height="34" rx="17" fill="#FE4B05"/>
+  <circle cx="865" cy="261" r="72" fill="#F6F3EC" stroke="#151514" stroke-width="8"/>
+  <path d="M913 310L960 357" stroke="#151514" stroke-width="14"/>
+  <path d="M831 261L856 286L900 232" fill="none" stroke="#03AEA9"
+    stroke-width="12" stroke-linecap="square"/>
+</svg>
