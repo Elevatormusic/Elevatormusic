@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="360" viewBox="0 0 620 360" role="img" aria-labelledby="title desc">
+  <title id="title">Apple HIG review system project card</title>
+  <desc id="desc">A source-aware design system and review engine for coding agents.</desc>
+  <rect x="1" y="1" width="618" height="358" rx="24" fill="#EFE4C6" stroke="#C9BE9E" stroke-width="2"/>
+  <text x="36" y="48" fill="#D0361B" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2">FIELD NOTE 04 / DESIGN REVIEW</text>
+  <text x="36" y="102" fill="#004D3A" font-family="Arial Narrow, Arial, sans-serif" font-size="34" font-weight="800">Apple HIG for Agents</text>
+  <text x="36" y="142" fill="#1C2B23" font-family="Arial, Helvetica, sans-serif" font-size="17">
+    <tspan x="36" dy="0">A source-aware review engine for platform-</tspan>
+    <tspan x="36" dy="24">correct interfaces and measured findings.</tspan>
+  </text>
+  <rect x="36" y="274" width="318" height="50" rx="25" fill="#004D3A"/>
+  <text x="57" y="306" fill="#EFE4C6" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">20 FOUNDATIONS / 63 COMPONENTS</text>
+  <rect x="400" y="88" width="166" height="166" rx="18" fill="#004D3A"/>
+  <rect x="417" y="107" width="132" height="128" rx="8" fill="#EFE4C6"/>
+  <rect x="432" y="123" width="52" height="10" rx="5" fill="#105B91"/>
+  <rect x="432" y="146" width="94" height="8" rx="4" fill="#C9BE9E"/>
+  <rect x="432" y="166" width="75" height="8" rx="4" fill="#C9BE9E"/>
+  <rect x="432" y="191" width="74" height="29" rx="8" fill="#D0361B"/>
+  <path d="M520 190L529 199L544 180" fill="none" stroke="#B0BC0E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="543" cy="124" r="7" fill="#E6B21E"/>
+  <path d="M385 271H582" stroke="#D0361B" stroke-width="5" stroke-linecap="round"/>
+</svg>

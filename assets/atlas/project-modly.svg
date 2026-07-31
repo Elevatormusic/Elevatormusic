@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="360" viewBox="0 0 620 360" role="img" aria-labelledby="title desc">
+  <title id="title">Modly Hunyuan3D project card</title>
+  <desc id="desc">A local image-to-3D pipeline with PBR export and a measured reduced-memory path.</desc>
+  <rect x="1" y="1" width="618" height="358" rx="24" fill="#EFE4C6" stroke="#C9BE9E" stroke-width="2"/>
+  <text x="36" y="48" fill="#D0361B" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2">FIELD NOTE 02 / GPU + 3D</text>
+  <text x="36" y="102" fill="#004D3A" font-family="Arial Narrow, Arial, sans-serif" font-size="34" font-weight="800">Modly Hunyuan3D 2.1</text>
+  <text x="36" y="142" fill="#1C2B23" font-family="Arial, Helvetica, sans-serif" font-size="17">
+    <tspan x="36" dy="0">Local image-to-3D with PBR export, mesh</tspan>
+    <tspan x="36" dy="24">repair, and automatic GPU planning.</tspan>
+  </text>
+  <rect x="36" y="274" width="318" height="50" rx="25" fill="#004D3A"/>
+  <text x="57" y="306" fill="#EFE4C6" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">20.4 GB</text>
+  <path d="M140 299H190" stroke="#E6B21E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M181 291L193 299L181 307" fill="none" stroke="#E6B21E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="208" y="306" fill="#EFE4C6" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">13.0 GB VRAM</text>
+  <rect x="394" y="92" width="82" height="108" rx="8" fill="#D0361B"/>
+  <circle cx="435" cy="130" r="23" fill="#E6B21E"/>
+  <path d="M414 175H456" stroke="#EFE4C6" stroke-width="7" stroke-linecap="round"/>
+  <path d="M489 146H518" stroke="#004D3A" stroke-width="7" stroke-linecap="round"/>
+  <path d="M511 136L525 146L511 156" fill="none" stroke="#004D3A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M536 103L584 127V181L536 205L488 181V127Z" fill="#105B91" stroke="#004D3A" stroke-width="5"/>
+  <path d="M488 127L536 151L584 127M536 151V205" fill="none" stroke="#EFE4C6" stroke-width="3"/>
+  <circle cx="504" cy="242" r="6" fill="#D0361B"/>
+  <circle cx="530" cy="242" r="6" fill="#E6B21E"/>
+  <circle cx="556" cy="242" r="6" fill="#105B91"/>
+</svg>

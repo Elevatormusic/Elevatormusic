@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="360" viewBox="0 0 620 360" role="img" aria-labelledby="title desc">
+  <title id="title">Hermes Classic Gold project card</title>
+  <desc id="desc">A reversible customization and telemetry layer for Hermes Agent Desktop.</desc>
+  <rect x="1" y="1" width="618" height="358" rx="24" fill="#EFE4C6" stroke="#C9BE9E" stroke-width="2"/>
+  <text x="36" y="48" fill="#D0361B" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2">FIELD NOTE 01 / AGENT INTERFACE</text>
+  <text x="36" y="102" fill="#004D3A" font-family="Arial Narrow, Arial, sans-serif" font-size="34" font-weight="800">Hermes Classic Gold</text>
+  <text x="36" y="142" fill="#1C2B23" font-family="Arial, Helvetica, sans-serif" font-size="17">
+    <tspan x="36" dy="0">A reversible theme, pet, and telemetry layer</tspan>
+    <tspan x="36" dy="24">for Hermes Agent Desktop.</tspan>
+  </text>
+  <rect x="36" y="282" width="318" height="42" rx="21" fill="#004D3A"/>
+  <text x="55" y="309" fill="#EFE4C6" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.2">VERSION-AWARE / SAFE RECOVERY</text>
+  <rect x="402" y="94" width="166" height="128" rx="10" fill="#004D3A"/>
+  <rect x="414" y="107" width="142" height="86" rx="5" fill="#11181C"/>
+  <rect x="426" y="119" width="54" height="7" rx="3.5" fill="#E6B21E"/>
+  <rect x="426" y="137" width="116" height="6" rx="3" fill="#105B91"/>
+  <rect x="426" y="153" width="93" height="6" rx="3" fill="#4B6F1E"/>
+  <rect x="426" y="169" width="104" height="6" rx="3" fill="#D0361B"/>
+  <circle cx="440" cy="207" r="5" fill="#E6B21E"/>
+  <circle cx="458" cy="207" r="5" fill="#105B91"/>
+  <circle cx="476" cy="207" r="5" fill="#B0BC0E"/>
+  <path d="M444 244H526" stroke="#D0361B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M485 226L530 244L485 262Z" fill="#D0361B"/>
+</svg>
