@@ -84,8 +84,8 @@ If you are working on an AI or hardware workflow that needs a clearer route from
 
 <p align="center">
   <img
-    src="./assets/atlas/shaya-atlas-cat-avatar-512.png"
-    alt="SHAYA Curious Garden cat mark"
-    width="96"
+    src="./assets/atlas/shaya-atlas-cat-full.png"
+    alt="Full SHAYA Curious Garden cat with an S-shaped tail and terminal prompt"
+    width="220"
   />
 </p>
