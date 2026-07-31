@@ -1,28 +1,50 @@
 {
   "brand": {
     "name": "SHAYA",
-    "system": "Midnight Archive",
-    "tagline": "TRACE WHAT OTHERS MISS.",
-    "promise": "Make complex work easier to inspect, understand, and trust."
+    "system": "Signal Color",
+    "version": "1.0",
+    "tagline": "Stay curious. Look closer.",
+    "idea": "Curiosity made visible."
   },
   "color": {
-    "void": "#071013",
-    "midnight": "#0E2231",
-    "archive": "#132B24",
-    "oxblood": "#7C2E20",
-    "trace": "#D58A25",
-    "bone": "#E2D2B8",
-    "smoke": "#6D7472"
+    "cobalt": "#0231B1",
+    "warmWhite": "#F6F3EC",
+    "ink": "#151514",
+    "turquoise": "#03AEA9",
+    "vermilion": "#FE4B05",
+    "marigold": "#FCAB05",
+    "indigo": "#3B1F73"
   },
-  "type": {
-    "display": "Bahnschrift",
-    "body": "Segoe UI",
-    "technical": "Cascadia Mono"
+  "typography": {
+    "display": "Impact",
+    "condensed": "Arial Narrow Bold",
+    "body": "Arial",
+    "mono": "Cascadia Mono"
   },
-  "minimumSize": {
-    "digitalMarkPx": 24,
-    "githubAvatarPx": 32,
-    "printMarkMm": 8
+  "logo": {
+    "clearSpaceRatio": 0.25,
+    "minimumDigitalSizePx": 32,
+    "minimumPrintSizeMm": 10
   },
-  "clearSpace": "One amber square on every side"
+  "github": {
+    "heroWidthPx": 1280,
+    "heroHeightPx": 480,
+    "identityRailMaximumRatio": 0.34
+  },
+  "texture": {
+    "style": "subtle screen-print grain",
+    "opacityMinimum": 0.03,
+    "opacityMaximum": 0.12
+  },
+  "motion": {
+    "cameraEasing": "cubic-bezier(0.65, 0, 0.35, 1)",
+    "sequence": [
+      "hold",
+      "ease-in",
+      "staggered-detail",
+      "clear-frame",
+      "ease-out"
+    ],
+    "surfaceRule": "Moving details stay attached to a physical surface."
+  }
 }

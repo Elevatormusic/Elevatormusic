@@ -114,21 +114,21 @@ confirmed facts from inference.
 
 ## Identity kit
 
-This profile uses the brighter **Signal Color** illustration edition. The
-repository also contains the complete **Midnight Archive** identity package.
+This profile and its complete identity kit use the **Signal Color** system.
 
-- [Read the brand guidelines](./brand/SHAYA-BRAND-GUIDELINES.md)
-- [Download the PDF guide](./brand/SHAYA-Personal-Brand-Guidelines.pdf)
-- [Browse the logo and visual assets](./brand/assets)
+- [Read the brand guidelines](./brand/SHAYA-SIGNAL-COLOR-GUIDELINES.md)
+- [Download the PDF guide](./brand/SHAYA-Signal-Color-Brand-Guidelines.pdf)
+- [Download the editable PowerPoint](./brand/SHAYA-Signal-Color-Brand-Guidelines.pptx)
+- [Browse the Signal Color assets](./brand/assets)
 - [Use the design tokens](./brand/brand-tokens.json)
 
 <details>
-  <summary><strong>View the Midnight Archive palette</strong></summary>
+  <summary><strong>View the Signal Color palette</strong></summary>
   <br />
   <p align="center">
     <img
-      src="./brand/assets/shaya-color-palette.png"
-      alt="SHAYA Midnight Archive color palette"
+      src="./brand/assets/shaya-signal-color-palette.png"
+      alt="SHAYA Signal Color palette"
       width="100%"
     />
   </p>
