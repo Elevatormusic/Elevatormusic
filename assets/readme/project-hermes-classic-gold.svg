@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="1280" height="400" viewBox="0 0 1280 400"
+  role="img" aria-labelledby="title">
+  <title id="title">Hermes Classic Gold Pack project cover</title>
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2" fill="#3B1F73"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="400" fill="#151514"/>
+  <rect width="1280" height="400" fill="url(#dots)" opacity=".55"/>
+  <path d="M0 0H28V400H0Z" fill="#FCAB05"/>
+  <text x="74" y="62" fill="#FCAB05" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">01 / AGENT EXPERIENCE</text>
+  <text x="74" y="145" fill="#F6F3EC" font-family="Arial Narrow, Arial, sans-serif"
+    font-size="72" font-weight="900" letter-spacing="1">HERMES</text>
+  <text x="74" y="212" fill="#FCAB05" font-family="Arial Narrow, Arial, sans-serif"
+    font-size="58" font-weight="900" letter-spacing="1">CLASSIC GOLD</text>
+  <text x="78" y="265" fill="#F6F3EC" font-family="Arial, sans-serif"
+    font-size="24" font-weight="500">A theme, pets, and status system for Hermes Agent.</text>
+  <rect x="78" y="310" width="138" height="34" rx="17" fill="#0231B1"/>
+  <text x="94" y="333" fill="#F6F3EC" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="14" font-weight="700" letter-spacing="1">TYPESCRIPT</text>
+  <rect x="230" y="310" width="144" height="34" rx="17" fill="#3B1F73"/>
+  <text x="246" y="333" fill="#F6F3EC" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="14" font-weight="700" letter-spacing="1">DESKTOP UX</text>
+  <text x="438" y="333" fill="#03AEA9" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">VIEW PROJECT /</text>
+
+  <rect x="700" y="48" width="510" height="304" rx="12" fill="#0231B1"
+    stroke="#F6F3EC" stroke-width="4"/>
+  <rect x="700" y="48" width="510" height="42" rx="12" fill="#F6F3EC"/>
+  <circle cx="727" cy="69" r="7" fill="#FE4B05"/>
+  <circle cx="750" cy="69" r="7" fill="#FCAB05"/>
+  <circle cx="773" cy="69" r="7" fill="#03AEA9"/>
+  <path d="M744 119H1002M744 151H940M744 183H1086" stroke="#03AEA9"
+    stroke-width="8" opacity=".7"/>
+  <path d="M1036 138L1057 111L1074 141L1100 132L1085 170V218
+    C1085 254 1057 275 1025 275C993 275 965 254 965 218V170
+    L951 132L979 141L996 111L1017 138Z" fill="#151514"/>
+  <path d="M995 190H1005M1047 190H1057" stroke="#FCAB05" stroke-width="8"/>
+  <rect x="700" y="306" width="510" height="46" fill="#FCAB05"/>
+  <text x="728" y="336" fill="#151514" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">NOIR NEKO / READY</text>
+</svg>

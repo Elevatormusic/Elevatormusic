@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="1280" height="400" viewBox="0 0 1280 400"
+  role="img" aria-labelledby="title">
+  <title id="title">How the work moves: look, build, prove</title>
+  <rect width="1280" height="400" fill="#F6F3EC"/>
+  <path d="M0 0H1280V12H0Z" fill="#0231B1"/>
+  <text x="46" y="52" fill="#FE4B05" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">HOW THE WORK MOVES</text>
+
+  <rect x="40" y="82" width="380" height="270" rx="10" fill="#0231B1"/>
+  <circle cx="108" cy="146" r="35" fill="none" stroke="#F6F3EC" stroke-width="8"/>
+  <path d="M133 171L161 199" stroke="#FCAB05" stroke-width="10" stroke-linecap="square"/>
+  <circle cx="108" cy="146" r="9" fill="#03AEA9"/>
+  <text x="188" y="126" fill="#03AEA9" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">01 / OBSERVE</text>
+  <text x="188" y="184" fill="#F6F3EC" font-family="Arial Narrow, Arial, sans-serif"
+    font-size="54" font-weight="900" letter-spacing="1">LOOK</text>
+  <text x="70" y="290" fill="#F6F3EC" font-family="Arial, sans-serif"
+    font-size="24" font-weight="500">Find the hidden constraint.</text>
+
+  <rect x="450" y="82" width="380" height="270" rx="10" fill="#03AEA9"/>
+  <rect x="506" y="116" width="68" height="68" fill="#F6F3EC"/>
+  <rect x="583" y="145" width="68" height="68" fill="#0231B1"/>
+  <rect x="660" y="174" width="68" height="68" fill="#FCAB05"/>
+  <path d="M740 151H779M766 138L779 151L766 164" fill="none" stroke="#151514" stroke-width="7"/>
+  <text x="506" y="263" fill="#151514" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">02 / MAKE</text>
+  <text x="506" y="319" fill="#151514" font-family="Arial Narrow, Arial, sans-serif"
+    font-size="54" font-weight="900" letter-spacing="1">BUILD</text>
+
+  <rect x="860" y="82" width="380" height="270" rx="10" fill="#151514"/>
+  <rect x="920" y="118" width="92" height="112" fill="none" stroke="#F6F3EC" stroke-width="7"/>
+  <path d="M940 175L959 194L997 146" fill="none" stroke="#FCAB05" stroke-width="9"
+    stroke-linecap="square" stroke-linejoin="miter"/>
+  <text x="1042" y="128" fill="#FE4B05" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">03 / VERIFY</text>
+  <text x="1042" y="184" fill="#F6F3EC" font-family="Arial Narrow, Arial, sans-serif"
+    font-size="54" font-weight="900" letter-spacing="1">PROVE</text>
+  <text x="900" y="290" fill="#F6F3EC" font-family="Arial, sans-serif"
+    font-size="24" font-weight="500">Test the result people will use.</text>
+</svg>

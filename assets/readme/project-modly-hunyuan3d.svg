@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="1280" height="400" viewBox="0 0 1280 400"
+  role="img" aria-labelledby="title">
+  <title id="title">Modly Hunyuan3D 2.1 project cover</title>
+  <defs>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#03AEA9" stroke-width="1" opacity=".35"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="400" fill="#0231B1"/>
+  <rect x="620" width="660" height="400" fill="url(#grid)"/>
+  <path d="M0 388H1280V400H0Z" fill="#03AEA9"/>
+  <text x="64" y="62" fill="#FCAB05" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">02 / LOCAL 3D</text>
+  <text x="64" y="148" fill="#F6F3EC" font-family="Arial Narrow, Arial, sans-serif"
+    font-size="76" font-weight="900" letter-spacing="1">MODLY</text>
+  <text x="64" y="216" fill="#03AEA9" font-family="Arial Narrow, Arial, sans-serif"
+    font-size="54" font-weight="900" letter-spacing="1">HUNYUAN3D 2.1</text>
+  <text x="68" y="266" fill="#F6F3EC" font-family="Arial, sans-serif"
+    font-size="25" font-weight="500">Local image-to-3D shape generation.</text>
+  <text x="68" y="301" fill="#F6F3EC" font-family="Arial, sans-serif"
+    font-size="22" font-weight="500">Add a texture pass when the hardware fits.</text>
+  <rect x="68" y="330" width="108" height="34" rx="17" fill="#FE4B05"/>
+  <text x="84" y="353" fill="#F6F3EC" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="14" font-weight="700" letter-spacing="1">PYTHON</text>
+  <rect x="190" y="330" width="126" height="34" rx="17" fill="#3B1F73"/>
+  <text x="206" y="353" fill="#F6F3EC" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="14" font-weight="700" letter-spacing="1">LOCAL GPU</text>
+  <text x="382" y="353" fill="#FCAB05" font-family="Cascadia Mono, Consolas, monospace"
+    font-size="18" font-weight="700" letter-spacing="2">VIEW PROJECT /</text>
+
+  <rect x="675" y="78" width="178" height="244" rx="8" fill="#F6F3EC"/>
+  <path d="M713 129H816V256H713Z" fill="#FCAB05"/>
+  <circle cx="764" cy="185" r="37" fill="#FE4B05"/>
+  <path d="M886 199H944M925 176L948 199L925 222" fill="none" stroke="#F6F3EC"
+    stroke-width="8"/>
+  <path d="M1047 76L1165 141V273L1047 338L929 273V141Z" fill="#3B1F73"
+    stroke="#F6F3EC" stroke-width="5"/>
+  <path d="M1047 76V207M929 141L1047 207L1165 141M1047 207V338M929 273L1047 207L1165 273"
+    fill="none" stroke="#03AEA9" stroke-width="4"/>
+  <circle cx="1047" cy="207" r="58" fill="none" stroke="#FCAB05" stroke-width="5"/>
+  <path d="M1012 239C1020 177 1076 152 1091 215C1097 242 1074 273 1046 268
+    C1025 265 1012 253 1012 239Z" fill="#FE4B05"/>
+</svg>

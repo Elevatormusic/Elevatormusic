@@ -1,131 +1,127 @@
 <p align="center">
   <img
     src="./assets/shaya-signal-color-zoom-ants-loop.gif"
-    alt="SHAYA Signal Color animation that zooms into a pool edge where a staggered line of ants walks across the red deck"
+    alt="SHAYA Signal Color animation that zooms into a pool edge where ants cross the red deck"
     width="100%"
   />
 </p>
 
 <p align="center">
-  <strong>Developer tools, local AI systems, 3D pipelines, and audio engineering.</strong>
-  <br />
-  I turn uncertain technical systems into clear, tested results.
+  <strong>I build tools that make complex AI, GPU, 3D, and audio systems easier to inspect, test, and use.</strong>
 </p>
 
 <p align="center">
-  <a href="#selected-work">Selected work</a>
-  ·
-  <a href="#current-focus">Current focus</a>
-  ·
-  <a href="#how-i-work">How I work</a>
-  ·
-  <a href="#identity-kit">Identity kit</a>
+  <a href="#selected-work">Explore the work</a>
+  &nbsp;&nbsp;/&nbsp;&nbsp;
+  <a href="#how-the-work-moves">See the method</a>
+  &nbsp;&nbsp;/&nbsp;&nbsp;
+  <a href="#more">Open the details</a>
 </p>
 
----
+## At a glance
 
-## Stay curious. Look closer.
+<p align="center">
+  <img
+    src="./assets/readme/shaya-capability-map.svg"
+    alt="Capability map connecting SHAYA with AI review, local GPU work, 3D pipelines, audio DSP, and design systems"
+    width="100%"
+  />
+</p>
 
-I build practical tools for systems that are difficult to inspect. My work
-spans AI agents, local model workflows, GPU inference, developer experience,
-3D generation, and audio systems.
+<p align="center">
+  <img
+    src="./assets/shaya-signal-color-zoom-ants-detail.png"
+    alt="A close view of ants crossing the red pool deck beside the water"
+    width="100%"
+  />
+  <br />
+  <strong>The useful signal is often in the detail.</strong>
+</p>
 
-I prefer small tests, explicit limits, and documentation that separates
-confirmed facts from inference.
+## How the work moves
+
+<p align="center">
+  <img
+    src="./assets/readme/shaya-workflow.svg"
+    alt="Workflow diagram: look for the hidden constraint, build the smallest useful tool, and prove the result people will use"
+    width="100%"
+  />
+</p>
 
 ## Selected work
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>
-        <a href="https://github.com/Elevatormusic/hermes-classic-gold-pack">
-          Hermes Classic Gold Pack
-        </a>
-      </h3>
-      <p>
-        A Classic Gold theme, Noir Neko pets, and a custom status bar for
-        Hermes Agent. It includes a one-prompt installation path.
-      </p>
-      <p><code>TypeScript</code> <code>Agent UX</code> <code>Desktop</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>
-        <a href="https://github.com/Elevatormusic/modly-hunyuan3d-2-1-shape-extension">
-          Modly Hunyuan3D 2.1
-        </a>
-      </h3>
-      <p>
-        A local image-to-3D extension with high-fidelity shape generation and
-        an optional PBR texture pass.
-      </p>
-      <p><code>Python</code> <code>Local GPU</code> <code>3D</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>
-        <a href="https://github.com/Elevatormusic/ears-bridge">
-          EARS Bridge
-        </a>
-      </h3>
-      <p>
-        A Windows and macOS bridge for using a miniDSP EARS headphone jig with
-        Dirac Live through per-ear calibration and a virtual audio device.
-      </p>
-      <p><code>C++</code> <code>Audio DSP</code> <code>Calibration</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>
-        <a href="https://github.com/Elevatormusic/apple-hig">
-          Apple HIG
-        </a>
-      </h3>
-      <p>
-        A Claude Code plugin that designs and reviews interfaces against
-        Apple Human Interface Guidelines across the Apple platform family.
-      </p>
-      <p><code>JavaScript</code> <code>UI Review</code> <code>Design Systems</code></p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img
+    src="./assets/readme/shaya-project-flow.svg"
+    alt="Four project flows: Hermes Agent to branded desktop, source image to 3D shape, per-ear capture to a Dirac-ready signal, and interface to review findings"
+    width="100%"
+  />
+</p>
 
-## Current focus
+<a href="https://github.com/Elevatormusic/hermes-classic-gold-pack">
+  <img
+    src="./assets/readme/project-hermes-classic-gold.svg"
+    alt="Hermes Classic Gold Pack: a theme, pets, and status system for Hermes Agent"
+    width="100%"
+  />
+</a>
 
-- Independent AI review and repair workflows.
-- Local model integration and GPU memory efficiency.
-- Evidence-backed evaluation of developer tools.
-- Security checks and reproducible technical documentation.
+<br />
 
-## How I work
+<a href="https://github.com/Elevatormusic/modly-hunyuan3d-2-1-shape-extension">
+  <img
+    src="./assets/readme/project-modly-hunyuan3d.svg"
+    alt="Modly Hunyuan3D 2.1: local image-to-3D shape generation with an optional texture pass"
+    width="100%"
+  />
+</a>
 
-| Build | Verify | Explain |
-| --- | --- | --- |
-| Make the smallest useful system. | Test the claim in the form people will use. | Record the evidence, scope, and remaining limits. |
+<br />
 
-**Working principle:** confidence should follow evidence, not replace it.
+<a href="https://github.com/Elevatormusic/ears-bridge">
+  <img
+    src="./assets/readme/project-ears-bridge.svg"
+    alt="EARS Bridge: a calibrated path from a headphone jig to Dirac Live"
+    width="100%"
+  />
+</a>
 
-## Toolbox
+<br />
 
-`Python` · `TypeScript` · `JavaScript` · `C++` · `HTML/CSS`
+<a href="https://github.com/Elevatormusic/apple-hig">
+  <img
+    src="./assets/readme/project-apple-hig.svg"
+    alt="Apple HIG: interface review against Apple platform rules"
+    width="100%"
+  />
+</a>
 
-`Local LLMs` · `AI agents` · `GPU inference` · `GitHub Actions`
-· `Windows` · `macOS` · `Audio DSP`
-
-## Identity kit
-
-This profile and its complete identity kit use the **Signal Color** system.
-
-- [Read the brand guidelines](./brand/SHAYA-SIGNAL-COLOR-GUIDELINES.md)
-- [Download the PDF guide](./brand/SHAYA-Signal-Color-Brand-Guidelines.pdf)
-- [Download the editable PowerPoint](./brand/SHAYA-Signal-Color-Brand-Guidelines.pptx)
-- [Download the vector logo master](./brand/assets/shaya-signal-color-mark-light.svg)
-- [Browse the Signal Color assets](./brand/assets)
-- [Use the design tokens](./brand/brand-tokens.json)
+## More
 
 <details>
-  <summary><strong>View the Signal Color palette</strong></summary>
+  <summary><strong>Current focus and toolbox</strong></summary>
   <br />
+
+  **Now:** independent AI review, local GPU systems, evidence-backed
+  developer tools, and reproducible technical documentation.
+
+  **Build:** Python, TypeScript, JavaScript, C++, and HTML/CSS.
+
+  **Systems:** local LLMs, AI agents, GPU inference, GitHub Actions,
+  Windows, macOS, and audio DSP.
+</details>
+
+<details>
+  <summary><strong>Signal Color identity kit</strong></summary>
+  <br />
+
+  - [Brand guidelines](./brand/SHAYA-SIGNAL-COLOR-GUIDELINES.md)
+  - [PDF guide](./brand/SHAYA-Signal-Color-Brand-Guidelines.pdf)
+  - [Editable PowerPoint](./brand/SHAYA-Signal-Color-Brand-Guidelines.pptx)
+  - [Vector logo master](./brand/assets/shaya-signal-color-mark-light.svg)
+  - [Design tokens](./brand/brand-tokens.json)
+  - [All identity assets](./brand/assets)
+
   <p align="center">
     <img
       src="./brand/assets/shaya-signal-color-palette.svg"
@@ -135,8 +131,10 @@ This profile and its complete identity kit use the **Signal Color** system.
   </p>
 </details>
 
----
-
 <p align="center">
-  <sub>Build carefully. Verify honestly. Explain clearly.</sub>
+  <img
+    src="./brand/assets/shaya-signal-color-wordmark-cobalt.svg"
+    alt="SHAYA. Stay curious. Look closer."
+    width="460"
+  />
 </p>
