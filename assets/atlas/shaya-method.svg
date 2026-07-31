@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="330" viewBox="0 0 1280 330" role="img" aria-labelledby="title desc">
+  <title id="title">SHAYA working method</title>
+  <desc id="desc">Observe the real system, map the failure path, build the smallest useful bridge, and verify the shipped route.</desc>
+  <rect x="1" y="1" width="1278" height="328" rx="28" fill="#EFE4C6" stroke="#C9BE9E" stroke-width="2"/>
+  <text x="56" y="54" fill="#D0361B" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="2.4">METHOD / FROM CONSTRAINT TO PROOF</text>
+  <path d="M128 172C260 88 381 250 512 166C642 82 758 248 891 165C997 99 1086 124 1166 164" fill="none" stroke="#004D3A" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="132" cy="170" r="31" fill="#D0361B" stroke="#EFE4C6" stroke-width="8"/>
+  <circle cx="455" cy="190" r="31" fill="#E6B21E" stroke="#EFE4C6" stroke-width="8"/>
+  <circle cx="798" cy="192" r="31" fill="#105B91" stroke="#EFE4C6" stroke-width="8"/>
+  <circle cx="1158" cy="160" r="31" fill="#B0BC0E" stroke="#EFE4C6" stroke-width="8"/>
+  <text x="76" y="238" fill="#004D3A" font-family="Arial Narrow, Arial, sans-serif" font-size="27" font-weight="800">01 / OBSERVE</text>
+  <text x="76" y="270" fill="#1C2B23" font-family="Arial, Helvetica, sans-serif" font-size="17">Inspect the real system.</text>
+  <text x="398" y="238" fill="#004D3A" font-family="Arial Narrow, Arial, sans-serif" font-size="27" font-weight="800">02 / MAP</text>
+  <text x="398" y="270" fill="#1C2B23" font-family="Arial, Helvetica, sans-serif" font-size="17">Name the failure path.</text>
+  <text x="741" y="238" fill="#004D3A" font-family="Arial Narrow, Arial, sans-serif" font-size="27" font-weight="800">03 / BUILD</text>
+  <text x="741" y="270" fill="#1C2B23" font-family="Arial, Helvetica, sans-serif" font-size="17">Make the useful bridge.</text>
+  <text x="1052" y="238" fill="#004D3A" font-family="Arial Narrow, Arial, sans-serif" font-size="27" font-weight="800">04 / VERIFY</text>
+  <text x="1052" y="270" fill="#1C2B23" font-family="Arial, Helvetica, sans-serif" font-size="17">Test the shipped route.</text>
+</svg>

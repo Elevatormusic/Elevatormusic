@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="360" viewBox="0 0 620 360" role="img" aria-labelledby="title desc">
+  <title id="title">EARS Bridge project card</title>
+  <desc id="desc">A calibrated and clock-stable bridge from a two-ear measurement jig to Dirac Live.</desc>
+  <rect x="1" y="1" width="618" height="358" rx="24" fill="#EFE4C6" stroke="#C9BE9E" stroke-width="2"/>
+  <text x="36" y="48" fill="#D0361B" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2">FIELD NOTE 03 / MEASUREMENT DSP</text>
+  <text x="36" y="102" fill="#004D3A" font-family="Arial Narrow, Arial, sans-serif" font-size="34" font-weight="800">EARS Bridge</text>
+  <text x="36" y="142" fill="#1C2B23" font-family="Arial, Helvetica, sans-serif" font-size="17">
+    <tspan x="36" dy="0">A calibrated, clock-stable bridge from a</tspan>
+    <tspan x="36" dy="24">two-ear jig to Dirac Live's mono input.</tspan>
+  </text>
+  <rect x="36" y="282" width="318" height="42" rx="21" fill="#004D3A"/>
+  <text x="57" y="309" fill="#EFE4C6" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.2">C++20 / JUCE / WINDOWS VERIFIED</text>
+  <circle cx="419" cy="123" r="31" fill="#D0361B"/>
+  <circle cx="419" cy="211" r="31" fill="#105B91"/>
+  <text x="409" y="132" fill="#EFE4C6" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800">L</text>
+  <text x="408" y="220" fill="#EFE4C6" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800">R</text>
+  <path d="M450 123H485C501 123 510 136 510 151V167" fill="none" stroke="#D0361B" stroke-width="7" stroke-linecap="round"/>
+  <path d="M450 211H485C501 211 510 198 510 183V167" fill="none" stroke="#105B91" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="510" cy="167" r="14" fill="#E6B21E"/>
+  <path d="M524 167H566" stroke="#004D3A" stroke-width="8" stroke-linecap="round"/>
+  <path d="M556 155L572 167L556 179" fill="none" stroke="#004D3A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M398 258C410 244 422 272 434 258C446 244 458 272 470 258C482 244 494 272 506 258C518 244 530 272 542 258" fill="none" stroke="#4B6F1E" stroke-width="5" stroke-linecap="round"/>
+</svg>

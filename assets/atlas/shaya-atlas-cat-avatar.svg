@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">SHAYA Curious Garden cat mark</title>
+  <desc id="desc">A black cat with gold eyes, a cream S-shaped tail, and a terminal prompt inside a red garden arch.</desc>
+  <rect width="512" height="512" fill="#EFE4C6"/>
+  <path
+    d="M114 430V204C114 120 174 62 256 62C338 62 398 120 398 204V430"
+    fill="none"
+    stroke="#D0361B"
+    stroke-width="42"
+    stroke-linecap="round"
+  />
+  <path
+    d="M171 244C147 282 139 338 148 403C153 449 191 476 256 476C321 476 359 449 364 403C373 338 365 282 341 244C319 210 290 192 256 192C222 192 193 210 171 244Z"
+    fill="#11181C"
+  />
+  <path
+    d="M175 205L164 82L228 137C246 129 266 129 284 137L348 82L337 205C347 226 344 250 326 269C307 290 283 300 256 300C229 300 205 290 186 269C168 250 165 226 175 205Z"
+    fill="#11181C"
+  />
+  <path d="M203 208C218 197 236 198 246 211C232 226 214 225 203 208Z" fill="#E6B21E"/>
+  <path d="M309 208C294 197 276 198 266 211C280 226 298 225 309 208Z" fill="#E6B21E"/>
+  <path
+    d="M324 294C255 271 216 304 246 337C266 359 320 354 335 385C352 419 318 443 269 429"
+    fill="none"
+    stroke="#EFE4C6"
+    stroke-width="29"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path d="M176 397L202 422L176 447" fill="none" stroke="#EFE4C6" stroke-width="16" stroke-linecap="square" stroke-linejoin="miter"/>
+  <rect x="218" y="431" width="34" height="14" rx="2" fill="#EFE4C6"/>
+</svg>

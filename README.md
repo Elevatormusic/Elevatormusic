@@ -1,140 +1,91 @@
 <p align="center">
   <img
-    src="./assets/shaya-signal-color-zoom-ants-loop.gif"
-    alt="SHAYA Signal Color animation that zooms into a pool edge where ants cross the red deck"
+    src="./assets/atlas/shaya-atlas-studio-loop.gif"
+    alt="SHAYA Field Atlas studio with a researcher, technical displays, botanical shelves, and a sunlit garden arch"
     width="100%"
   />
 </p>
 
 <p align="center">
-  <strong>I build tools that make complex AI, GPU, 3D, and audio systems easier to inspect, test, and use.</strong>
-</p>
-
-<p align="center">
-  <a href="#selected-work">Explore the work</a>
-  &nbsp;&nbsp;/&nbsp;&nbsp;
-  <a href="#how-the-work-moves">See the method</a>
-  &nbsp;&nbsp;/&nbsp;&nbsp;
-  <a href="#more">Open the details</a>
-</p>
-
-## At a glance
-
-<p align="center">
-  <img
-    src="./assets/readme/shaya-capability-map.svg"
-    alt="Capability map connecting SHAYA with AI review, local GPU work, 3D pipelines, audio DSP, and design systems"
-    width="100%"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="./assets/shaya-signal-color-zoom-ants-detail.png"
-    alt="A close view of ants crossing the red pool deck beside the water"
-    width="100%"
-  />
+  <strong>Software engineer and designer for AI and hardware tools.</strong>
   <br />
-  <strong>The useful signal is often in the detail.</strong>
+  I turn complex workflows into clear desktop software. I prove each result with tests, measurements, and reproducible documentation.
 </p>
 
-## How the work moves
+<p align="center">
+  <sub>Agent interfaces · local image-to-3D · measurement DSP · automated design review</sub>
+</p>
 
 <p align="center">
-  <img
-    src="./assets/readme/shaya-workflow.svg"
-    alt="Workflow diagram: look for the hidden constraint, build the smallest useful tool, and prove the result people will use"
-    width="100%"
-  />
+  <a href="#selected-work">Selected work</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#how-i-work">How I work</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#current-focus">Current focus</a>
 </p>
 
 ## Selected work
 
 <p align="center">
+  <a href="https://github.com/Elevatormusic/hermes-classic-gold-pack">
+    <img
+      src="./assets/atlas/project-hermes.svg"
+      alt="Hermes Classic Gold: a reversible customization and telemetry layer for Hermes Agent Desktop"
+      width="49%"
+    />
+  </a>
+  <a href="https://github.com/Elevatormusic/modly-hunyuan3d-2-1-shape-extension">
+    <img
+      src="./assets/atlas/project-modly.svg"
+      alt="Modly Hunyuan3D 2.1: local image-to-3D with PBR export and measured GPU memory reduction"
+      width="49%"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Elevatormusic/ears-bridge">
+    <img
+      src="./assets/atlas/project-ears.svg"
+      alt="EARS Bridge: calibrated and clock-stable routing from a two-ear measurement jig to Dirac Live"
+      width="49%"
+    />
+  </a>
+  <a href="https://github.com/Elevatormusic/apple-hig">
+    <img
+      src="./assets/atlas/project-apple-hig.svg"
+      alt="Apple HIG for Agents: a source-aware interface design and review system"
+      width="49%"
+    />
+  </a>
+</p>
+
+## How I work
+
+<p align="center">
   <img
-    src="./assets/readme/shaya-project-flow.svg"
-    alt="Four project flows: Hermes Agent to branded desktop, source image to 3D shape, per-ear capture to a Dirac-ready signal, and interface to review findings"
+    src="./assets/atlas/shaya-method.svg"
+    alt="Method: observe the real system, map the failure path, build the useful bridge, and verify the shipped route"
     width="100%"
   />
 </p>
 
-<a href="https://github.com/Elevatormusic/hermes-classic-gold-pack">
-  <img
-    src="./assets/readme/project-hermes-classic-gold.svg"
-    alt="Hermes Classic Gold Pack: a theme, pets, and status system for Hermes Agent"
-    width="100%"
-  />
-</a>
+The constraint changes: upstream code, GPU memory, clock drift, or design authority. The standard does not. I test the real path, keep changes reversible, and state what remains unverified.
 
-<br />
+## Current focus
 
-<a href="https://github.com/Elevatormusic/modly-hunyuan3d-2-1-shape-extension">
-  <img
-    src="./assets/readme/project-modly-hunyuan3d.svg"
-    alt="Modly Hunyuan3D 2.1: local image-to-3D shape generation with an optional texture pass"
-    width="100%"
-  />
-</a>
+I am working on independent agent review, local GPU workflows, and interfaces that make system behavior and limits easy to inspect.
 
-<br />
+**Working range:** Python, TypeScript and JavaScript, C++ and JUCE, GitHub Actions, Windows and macOS, local LLMs, GPU inference, and audio DSP.
 
-<a href="https://github.com/Elevatormusic/ears-bridge">
-  <img
-    src="./assets/readme/project-ears-bridge.svg"
-    alt="EARS Bridge: a calibrated path from a headphone jig to Dirac Live"
-    width="100%"
-  />
-</a>
+## Start here
 
-<br />
-
-<a href="https://github.com/Elevatormusic/apple-hig">
-  <img
-    src="./assets/readme/project-apple-hig.svg"
-    alt="Apple HIG: interface review against Apple platform rules"
-    width="100%"
-  />
-</a>
-
-## More
-
-<details>
-  <summary><strong>Current focus and toolbox</strong></summary>
-  <br />
-
-  **Now:** independent AI review, local GPU systems, evidence-backed
-  developer tools, and reproducible technical documentation.
-
-  **Build:** Python, TypeScript, JavaScript, C++, and HTML/CSS.
-
-  **Systems:** local LLMs, AI agents, GPU inference, GitHub Actions,
-  Windows, macOS, and audio DSP.
-</details>
-
-<details>
-  <summary><strong>Signal Color identity kit</strong></summary>
-  <br />
-
-  - [Brand guidelines](./brand/SHAYA-SIGNAL-COLOR-GUIDELINES.md)
-  - [PDF guide](./brand/SHAYA-Signal-Color-Brand-Guidelines.pdf)
-  - [Editable PowerPoint](./brand/SHAYA-Signal-Color-Brand-Guidelines.pptx)
-  - [Vector logo master](./brand/assets/shaya-signal-color-mark-light.svg)
-  - [Design tokens](./brand/brand-tokens.json)
-  - [All identity assets](./brand/assets)
-
-  <p align="center">
-    <img
-      src="./brand/assets/shaya-signal-color-palette.svg"
-      alt="SHAYA Signal Color palette"
-      width="100%"
-    />
-  </p>
-</details>
+If you are working on an AI or hardware workflow that needs a clearer route from experiment to proof, start with the project nearest your problem or [browse all repositories](https://github.com/Elevatormusic?tab=repositories).
 
 <p align="center">
   <img
-    src="./brand/assets/shaya-signal-color-wordmark-cobalt.svg"
-    alt="SHAYA. Stay curious. Look closer."
-    width="460"
+    src="./assets/atlas/shaya-atlas-cat-avatar-512.png"
+    alt="SHAYA Curious Garden cat mark"
+    width="96"
   />
 </p>
