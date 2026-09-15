@@ -10,7 +10,7 @@
 
 **AI Product Engineer · Los Angeles, CA**
 
-[Email](mailto:shayanx45@gmail.com) · [LinkedIn](https://www.linkedin.com/in/shayanbianconi/) · [Repositories](https://github.com/Elevatormusic?tab=repositories)
+[Email](mailto:shayanx45@gmail.com) · [LinkedIn](https://www.linkedin.com/in/shayan-bianconi/) · [Repositories](https://github.com/Elevatormusic?tab=repositories)
 
 I build software that makes emerging AI useful, from the infrastructure that runs models to the interfaces people use.
 
