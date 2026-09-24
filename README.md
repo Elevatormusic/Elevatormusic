@@ -1,97 +1,62 @@
-<p align="center">
-  <img
-    src="./assets/atlas/shaya-atlas-studio-loop.gif"
-    alt="SHAYA Field Atlas studio with a researcher, technical displays, botanical shelves, and a sunlit garden arch"
-    width="100%"
-  />
-</p>
+<a href="https://elevatormusic.github.io/portfolio/">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/portfolio/profile-header-mobile.svg">
+    <img src="./assets/portfolio/profile-header.svg" width="100%" alt="Shayan Bianconi â€” AI Product Engineer. Making AI work in the real world.">
+  </picture>
+</a>
 
-# Shayan Bianconi
+**AI Product Engineer Â· Los Angeles**<br>
+[Portfolio â†—](https://elevatormusic.github.io/portfolio/) Â· [Email](mailto:shayanx45@gmail.com) Â· [LinkedIn](https://www.linkedin.com/in/shayan-bianconi/) Â· [Repositories](https://github.com/Elevatormusic?tab=repositories)
 
-**AI Product Engineer · Los Angeles, CA**
+I turn models and technical constraints into useful products. My work spans local inference, creative tools, audio software, and physical simulation.
 
-[Email](mailto:shayanx45@gmail.com) · [LinkedIn](https://www.linkedin.com/in/shayan-bianconi/) · [Repositories](https://github.com/Elevatormusic?tab=repositories)
+## Selected work
 
-I build software that makes emerging AI useful, from the infrastructure that runs models to the interfaces people use.
+### 01 / [Modly Ã— Hunyuan3D](https://github.com/Elevatormusic/modly-hunyuan3d-2-1-shape-extension)
 
-Most of my projects start with a practical limitation: a model that will not deploy, a creative workflow that needs too much GPU memory, or two tools that should work together but do not. I work across product design, implementation, and deployment to solve the problem and make the result usable by someone other than me.
+**More room to create.** An image-to-3D workflow with textured assets, mesh cleanup, and export. I integrated Tencent's Hunyuan3D into Modly and staged components between CPU and GPU to reduce idle GPU weights.
 
-## Selected public projects
+One recorded RTX 3090 texture-stage benchmark used **20.4 â†’ 13.0 GB of reserved GPU memory**, a **36% reduction**, with runtime changing from **111 â†’ 116 seconds**. [Measurement record](https://github.com/Elevatormusic/modly-hunyuan3d-2-1-shape-extension/blob/main/capacity.py#L12-L21).
 
-### [Local LLM Deployment Recipes](https://github.com/Elevatormusic/GLM-5.3-Flash-NVFP4-DFlash2-2x-DGX-Spark)
+`Python` `PyTorch` `CUDA`
 
-I adapt community deployment recipes and patch runtime compatibility gaps to make early-release models available in coding assistants. My development setup includes a two-node NVIDIA DGX Spark cluster and an RTX 3090 workstation.
+### 02 / [EARS Bridge](https://github.com/Elevatormusic/ears-bridge)
 
-Deployed **GLM-5.3-Flash within 2 days of release** and **Qwen3.8-Flash-Next within 3 days**. In my DeepSeek workload, API gateway optimization raised **aggregate concurrent throughput from 199–217 to 275 tokens/s**. Supporting work includes shared model APIs, startup automation, health checks, recovery tooling, and qualification tests.
+**Two microphones. One clear workflow.** A desktop bridge between miniDSP EARS and Dirac Live. Per-ear calibration, automatic selection, and drift correction let two independent audio systems work together without mixing the measurements.
 
-*Python · vLLM · Docker · LiteLLM · Linux · OpenAI/Anthropic-compatible APIs*
+**Public alpha.** Windows hardware-tested; macOS device validation remains pending. [Website and demo â†—](https://elevatormusic.github.io/ears-bridge/)
 
-### [Modly Hunyuan3D Extension](https://github.com/Elevatormusic/modly-hunyuan3d-2-1-shape-extension)
+`C++` `JUCE` `DSP` `CMake`
 
-An image-to-3D workflow that brings Tencent's Hunyuan3D into Modly, with textured asset generation, mesh cleanup, and export for game and design workflows.
+### 03 / [Local AI Systems](https://github.com/Elevatormusic/GLM-5.3-Flash-NVFP4-DFlash2-2x-DGX-Spark)
 
-Reduced measured GPU memory usage from **20.4 GB to 13.0 GB — approximately 36% — at about 5% additional runtime**, bringing textured generation within a 16 GB GPU memory budget. Packaged a ready-to-use workflow and prebuilt Windows components, with 300 automated tests supporting repeatable generation.
+**From model weights to everyday tools.** Local inference on two NVIDIA DGX Spark systems, connected to coding assistants through shared APIs. I adapt community deployment recipes, resolve compatibility gaps, and build health checks, startup automation, and recovery tooling.
 
-*Python · PyTorch · CUDA* · [Input/output examples](https://github.com/Elevatormusic/modly-hunyuan3d-2-1-shape-extension#readme)
+The linked repository is a **deployment recipe fork**. My work is integration and qualification, built on upstream models and runtimes.
 
-### [EARS Bridge](https://github.com/Elevatormusic/ears-bridge)
+`vLLM` `Docker` `Linux` `Python` `Model APIs`
 
-A desktop application that lets headphone enthusiasts use a two-microphone miniDSP EARS measurement device with Dirac Live, which expects a single microphone input. It handles per-ear calibration and routing, with feedback that helps users spot unreliable measurements.
+## Research & developer tools
 
-Fixed clock drift that caused rejected measurements and built **570+ automated tests** across installation, measurement, and export workflows. Published Windows and macOS installers.
+**[WaveGrating](https://elevatormusic.github.io/portfolio/#wavegrating)** â€” A wave-optical renderer research project that connects numerical simulation with Blender scene authoring. **Research in progress:** material accuracy and general scene rendering remain open.
 
-**Public alpha. Windows 11 tested; macOS hardware validation remains pending.**
+**[Hermes Classic Gold](https://github.com/Elevatormusic/hermes-classic-gold-pack)** â€” Model controls, session costs, and hardware telemetry in one desktop extension, with persistent settings and update-aware installation.
 
-*C++17 · JUCE · CMake · GitHub Actions* · [Website and demo](https://elevatormusic.github.io/ears-bridge/)
-
-### [Hermes Classic Gold](https://github.com/Elevatormusic/hermes-classic-gold-pack)
-
-A desktop extension that puts model settings, session costs, and hardware telemetry in one interface, without requiring changes to the underlying Hermes application.
-
-Built the interface and Python backend, with update-safe installation, rollback, and removal. Added **206 automated tests** covering security and compatibility, and submitted upstream improvements for local-model management and routing.
-
-*TypeScript · Electron · Python · GitHub Actions*
-
-### [apple-hig](https://github.com/Elevatormusic/apple-hig)
-
-A Claude Code plugin that brings platform-specific design and accessibility guidance into interface development and code review. It loads relevant guidance for the task rather than treating every interface as the same platform.
-
-Published before-and-after examples and a live interface demo so the design changes can be inspected, not just described.
-
-*UX systems · Accessibility · Prompt engineering · Claude Code* · [Examples and live demo](https://elevatormusic.github.io/apple-hig/)
-
-## Internal tools and research
-
-### Multi-agent code review
-
-Built and used a review workflow that coordinates agents across pull requests, with repository context, structured tasks, and automated checks before accepting fixes. In one development session, **13 parallel agents resolved approximately 200 code findings across 7 pull requests**.
-
-The workflow is in use in my own development. **Agent Review Orchestrator**, the separate application intended to package it, is currently at scaffold stage.
-
-### acoustic-adapt
-
-A private room-correction prototype built around measured acoustic data and a live-tested audio engine. Listener-following behavior currently uses simulated presence; real-room tracking remains research.
-
-My earlier engineering work includes a custom industrial 3D printer, microphone-array design, CAD, and physical simulation.
+**[Apple HIG for Agents](https://github.com/Elevatormusic/apple-hig)** â€” Platform-specific design and accessibility guidance for interface development and review. [Examples and live demo â†—](https://elevatormusic.github.io/apple-hig/)
 
 ## How I work
 
-I use Codex, Claude Code, and Hermes throughout development. I define requirements and constraints, review generated code, and validate changes with automated tests and hardware measurements.
+Understand the constraint. Build the useful path. Measure the tradeoff.
 
-I build supporting infrastructure alongside the product: installers, deployment recipes, health checks, recovery paths, and documentation. I make the distinction between a prototype, a tested workflow, and a released product explicit.
+I work across product design, implementation, and deployment. I use Codex, Claude Code, and Hermes, define requirements, review generated code, and validate changes with automated tests and hardware measurements. Installers, health checks, recovery paths, and documentation are part of the product.
 
-## Technical toolkit
+My wider engineering background includes audio measurement, CAD, custom hardware, and physical simulation. I distinguish a prototype, a tested workflow, and a released product.
 
-**Languages:** Python, TypeScript, JavaScript, C++17  
-**AI and infrastructure:** PyTorch, CUDA, vLLM, TensorRT-LLM, Docker, Linux, LiteLLM  
-**Applications and delivery:** Node.js, Electron, JUCE, CMake, REST APIs, GitHub API, GitHub Actions, Git  
-**AI development:** LLM integration, multi-agent orchestration, prompt engineering, Model Context Protocol, inference optimization
+**Core tools:** Python Â· TypeScript Â· JavaScript Â· C++ Â· PyTorch Â· CUDA Â· vLLM Â· Docker Â· Linux Â· Electron Â· JUCE
 
-## Contact
+---
 
-I'm interested in AI product engineering, applied AI, and developer tools roles where I can take ownership from prototype through release.
+Interested in AI product engineering, applied AI, and developer tools roles.<br>
+**[Explore the portfolio â†—](https://elevatormusic.github.io/portfolio/)** Â· **[Get in touch](mailto:shayanx45@gmail.com)**
 
-**[shayanx45@gmail.com](mailto:shayanx45@gmail.com)** · [LinkedIn](https://www.linkedin.com/in/shayanbianconi/)
-
-<sub>Performance figures describe measurements from my development setups, not universal hardware benchmarks. Results depend on workload, hardware, and configuration.</sub>
-
+<sub>Performance figures describe the stated hardware and workload. They are not universal benchmarks.</sub>
