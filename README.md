@@ -102,7 +102,7 @@ When a tool I use breaks, I trace the fault and send its maintainers a fix or a 
 
 I'm Shayan, an independent AI product engineer based in Los Angeles.
 
-Most of my work is what comes after a model runs once: the installer, the memory budget, the health checks, and the docs. My background is in audio, hardware, and simulation, where a result counts only if you can measure it again. I test on my own machines and write down what still doesn't work.
+Most of my work is what comes after a model runs once: the installer, the memory budget, the health checks, and the docs. My background is in audio, hardware, and simulation, where a result counts only if you can measure it again. I test on my own machines and publish the numbers.
 
 I'm open to full-time AI product engineering roles. Email [hello@shayanbianconi.com](mailto:hello@shayanbianconi.com) or visit [my portfolio](https://shayanbianconi.com/).
 
