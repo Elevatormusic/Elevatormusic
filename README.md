@@ -18,7 +18,7 @@ Two of my pull requests are merged upstream, and three more are in review, inclu
 
 **Wave optics for Blender.** Common renderers can't compute the colors of a CD, a banknote hologram, or a holographic Pokémon card. I'm building WaveGrating to render them accurately.
 
-**Research in progress.** The research covers diffraction, interference, polarization, and partial coherence in supported optical scenes. Material accuracy and general scene rendering are still open.
+**Research in progress.** The research covers diffraction, interference, polarization, and partial coherence in supported optical scenes.
 
 [Read the WaveGrating case study](https://shayanbianconi.com/work/wavegrating/)
 
@@ -38,7 +38,7 @@ In one recorded RTX 3090 texture-pass benchmark, reserved GPU memory fell from 2
 
 **Dirac Live on an EARS jig.** The bridge connects the miniDSP EARS headphone measurement jig to Dirac Live. Per-ear calibration and automatic selection keep the two ears' measurements separate, and a drift-correcting sample-rate converter holds one fixed ratio during each sweep.
 
-**Public alpha.** The Windows build is tested on hardware. The macOS build still needs device validation.
+**Public alpha.** The Windows build is tested on hardware.
 
 [Read the EARS Bridge case study](https://shayanbianconi.com/work/ears/) · [Website and downloads](https://elevatormusic.github.io/ears-bridge/) · [Source and validation](https://github.com/Elevatormusic/ears-bridge)
 
@@ -56,9 +56,9 @@ In one recorded RTX 3090 texture-pass benchmark, reserved GPU memory fell from 2
 
 ### 05 / Hermes Classic Gold
 
-**Agent telemetry in one tape.** A theme and telemetry pack for Hermes Desktop. The tape shows the state of an agent run at a glance. The backend reads context, cache hits, and cost from the session record, and it never reads message text.
+**Agent telemetry in one tape.** A theme and telemetry pack for Hermes Desktop. The tape shows the state of an agent run at a glance.
 
-**Open source.** The pack is tested only on Windows.
+**Open source.** The backend reads context, cache hits, and cost from the session record, and it never reads message text.
 
 [Read the Hermes Classic Gold case study](https://shayanbianconi.com/work/hermes/) · [Source on GitHub](https://github.com/Elevatormusic/hermes-classic-gold-pack)
 
@@ -102,8 +102,6 @@ When a tool I use breaks, I trace the fault and send its maintainers a fix or a 
 
 I'm Shayan, an independent AI product engineer based in Los Angeles.
 
-Most of my work is what comes after a model runs once: the installer, the memory budget, the health checks, and the docs. My background is in audio, hardware, and simulation, where a result counts only if you can measure it again. I test on my own machines and write down what still doesn't work.
+Most of my work is what comes after a model runs once: the installer, the memory budget, the health checks, and the docs. My background is in audio, hardware, and simulation, where a result counts only if you can measure it again. I test on my own machines and publish the numbers.
 
 I'm open to full-time AI product engineering roles. Email [hello@shayanbianconi.com](mailto:hello@shayanbianconi.com) or visit [my portfolio](https://shayanbianconi.com/).
-
-<sub>Each performance figure comes from the hardware and workload named next to it.</sub>
