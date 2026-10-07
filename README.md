@@ -28,7 +28,7 @@ Two of my pull requests are merged upstream, and three more are in review, inclu
 
 **Image to 3D on 16 GB cards.** An image becomes a textured 3D asset. The texture pass reserved 20.4 GB of GPU memory, more than a 16 GB card holds. I staged components between CPU and GPU so idle weights no longer occupied the GPU.
 
-In one recorded RTX 3090 texture-pass benchmark, reserved GPU memory fell from 20.4 GB to 13.0 GB, 36% less, and the pass took 116 s, up from 111 s. [See the measurement record](https://github.com/Elevatormusic/modly-hunyuan3d-2-1-shape-extension/blob/main/capacity.py#L12-L21)
+In one recorded RTX 3090 texture-pass benchmark, reserved GPU memory fell from 20.4 GB to 13.0 GB, 36% less, and the pass took 116 s, up from 111 s.
 
 [Read the Modly case study](https://shayanbianconi.com/work/modly/) · [Source on GitHub](https://github.com/Elevatormusic/modly-hunyuan3d-2-1-shape-extension)
 
@@ -40,7 +40,7 @@ In one recorded RTX 3090 texture-pass benchmark, reserved GPU memory fell from 2
 
 **Public alpha.** The Windows build is tested on hardware.
 
-[Read the EARS Bridge case study](https://shayanbianconi.com/work/ears/) · [Website and downloads](https://elevatormusic.github.io/ears-bridge/) · [Source and validation](https://github.com/Elevatormusic/ears-bridge)
+[Read the EARS Bridge case study](https://shayanbianconi.com/work/ears/) · [Website and downloads](https://elevatormusic.github.io/ears-bridge/)
 
 `C++20` `JUCE 8` `Catch2`
 
@@ -68,7 +68,7 @@ In one recorded RTX 3090 texture-pass benchmark, reserved GPU memory fell from 2
 
 **Faster context compaction for Hermes Agent.** When a long agent session fills its context window, Hermes asks a model to summarize the history. That request starts a new prompt, so the server reads the whole history again. My plugin sends the last request once more with a handoff instruction at the end, so the server reuses its prompt cache and the main model writes the summary from the full history.
 
-In ten recorded sessions of about 105,000 tokens on DGX, the median compaction took 16.8 s, against 43.5 s for hermes-lcm and 78.5 s for the built-in compressor, and the agent kept 59 of 60 compacted facts, against 43 and 50. [See the benchmark record](https://github.com/Elevatormusic/hermes-warm-compaction/blob/main/evidence/lcm-bench.json)
+In ten recorded sessions of about 105,000 tokens on DGX, the median compaction took 16.8 s, against 43.5 s for hermes-lcm and 78.5 s for the built-in compressor, and the agent kept 59 of 60 compacted facts, against 43 and 50.
 
 **Open source.** It runs on unpatched Hermes through documented plugin APIs only. An in-core version is open as a draft pull request to Hermes Agent.
 
