@@ -64,6 +64,18 @@ In one recorded RTX 3090 texture-pass benchmark, reserved GPU memory fell from 2
 
 `JavaScript` `Python` `Hermes plug-in SDK`
 
+### 06 / Warm Compaction
+
+**Faster context compaction for Hermes Agent.** When a long agent session fills its context window, Hermes asks a model to summarize the history. That request starts a new prompt, so the server reads the whole history again. My plugin sends the last request once more with a handoff instruction at the end, so the server reuses its prompt cache and the main model writes the summary from the full history.
+
+In ten recorded sessions of about 105,000 tokens on DGX, the median compaction took 16.8 s, against 43.5 s for hermes-lcm and 78.5 s for the built-in compressor, and the agent kept 59 of 60 compacted facts, against 43 and 50. [See the benchmark record](https://github.com/Elevatormusic/hermes-warm-compaction/blob/main/evidence/lcm-bench.json)
+
+**Open source.** It runs on unpatched Hermes through documented plugin APIs only. An in-core version is open as a draft pull request to Hermes Agent.
+
+[Source and results on GitHub](https://github.com/Elevatormusic/hermes-warm-compaction) · [Draft pull request to Hermes Agent](https://github.com/NousResearch/hermes-agent/pull/133625)
+
+`Python` `Hermes plug-in SDK` `Prompt caching`
+
 **Also:** [Apple HIG for Agents](https://github.com/Elevatormusic/apple-hig), a Claude Code plugin that designs and reviews interfaces with Apple's Human Interface Guidelines for iOS, iPadOS, macOS, watchOS, tvOS, and visionOS. [Examples and live demo](https://elevatormusic.github.io/apple-hig/)
 
 ## Open source contributions
